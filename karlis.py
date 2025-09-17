@@ -1,3 +1,5 @@
 print("sveiks")
 b=int(input("ievadi savu milako krasu:"))
 print(b)
+a=int(input("ievadi savu vardu:"))
+print(a)
