@@ -1,3 +1,3 @@
 print("sveiks")
-a=int(input("ievadi savu vardu"))
-print(a)
+b=int(input("ievadi savu milako krasu:"))
+print(b)
