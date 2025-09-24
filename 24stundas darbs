@@ -1,0 +1,33 @@
+import tkinter as tk
+logs=tk.Tk()
+logs.geometry("500x200")
+logs.title("mans logs")
+
+
+teksts_1=tk.Label(logs, text="python ir forss",
+                    fg="green",)
+
+# def spied_pogu():
+#     print("poga darbojas")
+# poga1=tk.Button(logs,text="klikskini seit",
+#                 command=spied_pogu
+                # )
+
+def teksta_lauks():
+    tekstsloga1=tk.Label(logs, text="poga darbojas")
+    tekstsloga1.pack()
+
+poga1=tk.Button(logs,text="klikskini seit",
+                command=teksta_lauks
+                )
+
+
+
+
+
+
+
+
+teksts_1.pack()
+poga1.pack()
+logs.mainloop()

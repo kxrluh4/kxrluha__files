@@ -1,0 +1,23 @@
+import tkinter as tk
+logs=tk.Tk()
+logs.geometry("200x150")
+def paradi_ievadi():
+    teksts.config(text="tuierakstiji: " + ievade.get())
+
+
+
+tk.Label(logs, text="ieraksti kaut ko:").pack()
+
+ievade=tk.Entry(logs)
+ievade.pack()
+
+poga=tk.Button(logs, text="paradit tekstu",
+               command=paradi_ievadi)
+
+poga.pack()
+
+teksts=tk.Label(logs, text="")
+teksts.pack()
+
+logs.mainloop()
+

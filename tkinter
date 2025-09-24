@@ -47,10 +47,10 @@
 #     print("saule spid!")
 # ...
 # poga1= tk.Button(logs,text="vasara",
-#                  command=ziemas_teksts
+#                  command=vasaras_teksts
 #                  )
 # ...
-# poga1_pack()
+# poga1_pack() 
 
 
 
