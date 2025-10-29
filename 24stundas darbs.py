@@ -23,11 +23,6 @@ poga1=tk.Button(logs,text="klikskini seit",
 
 
 
-
-
-
-
-
 teksts_1.pack()
 poga1.pack()
 logs.mainloop()
